@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+    <title>Schedule Calendar</title>
+</head>
+<body>
+    <div class="container">
+
+        <h1>CRONOGRAMA</h1>
+
+        <div class="task__container">
+            <div class="task__name" id="estudos" style="background-color: #db6f3d;">Estudos</div>
+            <div class="task__name" id="crossfit" style="background-color: #ebba60">Crossfit</div>
+            <div class="task__name" id="intervalo" style="background-color: #fa83d6">Intervalo</div>
+            <div class="task__name" id="pets" style="background-color: #a8509a">Pets</div>
+            <div class="task__name" id="namorada" style="background-color: #8a445b">Namorada</div>
+
+        </div>
+
+        <div class="schedule__container">
+            <div class="days__container">
+                <span class="corner"></span>
+                <div class="day">Domingo</div>
+                <div class="day">Segunda</div>
+                <div class="day">Terça</div>
+                <div class="day">Quarta</div>
+                <div class="day">Quinta</div>
+                <div class="day">Sexta</div>
+                <div class="day">Sábado</div>
+            </div>
+            <div class="part__day">
+                <span class="time">18:30 <br> - <br> 19:00</span>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+            </div>
+            <div class="part__day">
+                <span class="time">19:00 <br> - <br> 19:30</span>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+            </div>
+            <div class="part__day">
+                <span class="time">10:30 <br> - <br> 20:00</span>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+            </div>
+            <div class="part__day">
+                <span class="time">20:00 <br> - <br> 20:30</span>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+            </div>
+            <div class="part__day">
+                <span class="time">20:30 <br> - <br> 21:00</span>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+            </div>
+        </div>
+
+        <button class="deleteBtn">resetar</button>
+
+        <div class="pop-up__container">
+            <div class="pop-up">
+                <h4>Resetar o cronograma inteiro?</h4>
+                <div class="btn__container">
+                    <div class="btn__answer" id="btn__yes">Sim, querida</div>
+                    <div class="btn__answer" id="btn__no">Não, caralho</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
